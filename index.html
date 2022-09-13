@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title> "Flipped Around Physics" </title>
+     <link rel="stylesheet" href="mystyle.css">
+
+   </head>
+   <body>
+     <header>
+<h1>FLIPPED AROUND PHYSICS</h1>
+     </header>
+      <nav>
+     <div class="navbar">
+  <a href="index.html">Home</a>
+
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Resources
+    <i class="fa fa-caret-down"></i>
+  </button>
+
+  <div class="dropdown-content" id="myDropdown">
+    <a href="alevel.html">A level</a>
+    <a href="gcse.html">GCSE</a>
+  </div>
+
+
+  </div>
+  <a href="membership.html">Membership</a>
+  <a href="flipping.html">Flipping</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+ </nav>
+ <p id="p1">
+RESOURCES FOR  FLIPPING PHYSICS
+<br>
+ <button id = "student_button" class="button" type="button" onclick = "window.location.href='file:///Users/johneyre/Projects/NewSolution/student.html';">
+    Student
+</button>
+              
+<button id = "teacher_button" class="button" type="button" onclick="window.location.href='file:///Users/johneyre/Projects/NewSolution/teacher.html';">
+   Teacher
+</button>
+</p>
+
+     <article>
+      <p> Here, you will find resources for teaching/learning Physics at GCSE and A level.</p>
+
+<p>My main aim is to provide teachers with worksheets and links to on-line resources to enable them to implement a flipped learning approach with their classes, with a minimum investment of time and effort.  If you are not familiar with flipped learning, you might like to look here.
+</p>
+<p>If you are flipping your classroom, there are worksheets provided for each topic - I call them 'core tasks'. I would suggest that students are set a core task to complete prior to a lesson. QR codes on the worksheets link through to support videos to help students with answering questions. However, often worksheets are self-explanatory, leading the student through the topic in small steps. When students arrive in class they should have some understanding of the topic. Class time can then be devoted to deepening understanding through peer discussion, whole class discussion, by reviewing the core task, practical work, problem solving, etc.
+</p>
+<p>Alternatively, the materials on this website can be used for student self-study/revision. Personally, I have found the worksheets particularly useful with one-to-one tutoring. Once a student has identified a topic they would like some support with, I will often direct them to complete a core task worksheet prior to a tutoring session. In the process of reviewing their answers, I can identify sticking points and be more targeted with my support.
+</p>
+<p>There are worksheets for most of the core topics at GCSE and A level. I am in the process of converting these worksheets to Google Forms which can be shared electronically with students. Google Form versions are available to Members only. There some samples here if you wish to try them out.
+</p></article>
+
+   </body>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</html>
